@@ -1,0 +1,62 @@
+/*VARIABLES*/
+
+
+
+
+
+/*GLOBAL*/
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+section {
+    padding-top: 120px;
+    padding-bottom: 120px; 
+}
+
+/*NAVBAR*/
+
+.nav-brand {
+    display: block;
+    float: left;
+    margin-top: 25px;
+    
+}
+
+.nav-menu ul, li {
+    display: inline-flex;
+    margin-right: 65px;
+    margin-top: 15px;
+    float: right;
+
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+
+header {
+    background: url(/images/background.png);
+    height: 100vh;
+    position: relative;
+    background-size: cover;
+    
+}
+
+
+
